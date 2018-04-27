@@ -49,7 +49,7 @@ class ECM_Keras:
 def main():
     data_x,data_y,charset=load_data("Data/ECM_Target_Vocabulary.txt","Data/ECM_Target_Characters.txt","Data/ECM_Train_Data.txt")
     mts=data_x.shape[1]
-    classes=data_y.shape[1]
+    classes=data_y.shape[1] 
 
     nw=ECM_Keras(mts,classes,classes)
     nw.create_network(load=True)
