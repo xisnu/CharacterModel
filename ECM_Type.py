@@ -33,4 +33,4 @@ btn = Button(window, text="Suggest", command=suggest)
 
 btn.grid(column=2, row=0)
 
-window.mainloop()
+window.mainloop() 
