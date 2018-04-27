@@ -68,7 +68,7 @@ def prepare_training_pairs(vocabularyfile):
             y=word[i+1]
             wf.write(x+"\t"+y+"\n")
         line=f.readline()
-    print("Training data ready")
+    print("Training data ready") 
     f.close()
     wf.close()
 
